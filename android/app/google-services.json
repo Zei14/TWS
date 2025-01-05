@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1039607356302",
+    "project_id": "login-tws",
+    "storage_bucket": "login-tws.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039607356302:android:9be144373ac9bc4feda2df",
+        "android_client_info": {
+          "package_name": "com.example.flutter_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0X9ubOmhtzUWMIpBT4hyxsw2_0mSwH4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
