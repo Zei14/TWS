@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'login_page.dart';
 import 'signup_page.dart';
+import 'katakata.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,6 +11,8 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,11 +21,13 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignUpPage(),
+        '/katakata': (context) =>
+            KataKataPage(), // Tambahkan rute untuk kata-kata
         '/home': (context) => Scaffold(
               appBar: AppBar(
-                title: Text('Home Page'),
+                title: const Text('Home Page'),
               ),
-              body: Center(
+              body: const Center(
                 child: Text('Welcome to the home page!'),
               ),
             ),
